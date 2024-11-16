@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wmipp", "wmipp.vcxproj", "{97A32772-1DDC-4759-86A7-A56883A719C5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F56CB21C-EC27-49B1-B236-ADD5FCE3EA8F} = {F56CB21C-EC27-49B1-B236-ADD5FCE3EA8F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtl", "modules\rtl\rtl.vcxproj", "{F56CB21C-EC27-49B1-B236-ADD5FCE3EA8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97A32772-1DDC-4759-86A7-A56883A719C5}.Debug|x64.ActiveCfg = Debug|x64
+		{97A32772-1DDC-4759-86A7-A56883A719C5}.Debug|x64.Build.0 = Debug|x64
+		{F56CB21C-EC27-49B1-B236-ADD5FCE3EA8F}.Debug|x64.ActiveCfg = Debug|x64
+		{F56CB21C-EC27-49B1-B236-ADD5FCE3EA8F}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {685E115F-038D-4939-B63D-6BB646939979}
+	EndGlobalSection
+EndGlobal
